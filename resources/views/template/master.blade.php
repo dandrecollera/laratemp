@@ -8,9 +8,49 @@
     <title>@yield('title', env('WEB_TITLE'))</title>
 
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/193851b937.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            /* uncomment to check box model */
+            /* border: solid black 1px; */
+        }
+    </style>
+
+    <style>
+        .socials {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            align-self: center;
+
+        }
+
+        .fag {
+            padding: 19px;
+            font-size: 20px;
+            width: 20px;
+            text-align: center;
+            text-decoration: none;
+            margin: 4px 4px;
+            /* margin-bottom: 20px; */
+            border-radius: 50%;
+            border: 2px white solid;
+            transition-duration: 0.14s;
+            box-sizing: initial;
+            color: white;
+        }
+
+        .fag:hover {
+            color: white;
+            background: black;
+        }
+    </style>
 </head>
 
 <body>
+
+    @include('components.header')
 
     @yield('content')
 
