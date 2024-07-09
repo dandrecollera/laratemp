@@ -16,7 +16,7 @@
         <section class="p-0">
             <div class="row me-0 g-0">
                 <div class="col-5" style="height: 500px">
-                    <img class="w-100" src="{{ asset('img/intensive.jpg') }}" alt="intensive" style="height:100%; object-fit:cover">
+                    <img class="w-100" src="{{ asset('img/2 - Caregiver Assist Senior Woman.webp') }}" alt="intensive" style="height:100%; object-fit:cover">
                 </div>
                 <div class="col-7 d-flex align-items-center justify-content-center text-white" style="background-color: #151823">
                     <div class="p-5" style="max-width: 700px">
@@ -46,7 +46,7 @@
 
                 <div class="col">
                     <div class="card" style="background-color:#1A3950; ">
-                        <img class="card-img-top" src="{{ asset('img/intensive.jpg') }}">
+                        <img class="card-img-top" src="{{ asset('img/4 - Female Medical Practitioner Reassuring Patient.webp') }}" style="height: 300px; object-fit:cover">
                         <div class="card-body text-white" style="min-height: 150px">
                             <h5 class="card-title">Credentialing</h5>
                             <p class="card-text">Ensure your healthcare professionals meet all regulatory requirements with our comprehensive credentialing.</p>
@@ -57,7 +57,7 @@
 
                 <div class="col">
                     <div class="card" style="background-color:#1A3950; ">
-                        <img class="card-img-top" src="{{ asset('img/intensive.jpg') }}">
+                        <img class="card-img-top" src="{{ asset('img/Asian Nurse with Mature Male Patient - L.webp') }}" style="height: 300px; object-fit:cover">
                         <div class="card-body text-white" style="min-height: 150px">
                             <h5 class="card-title">Recruitment</h5>
                             <p class="card-text">Find and attract top talent with our specialized recruitment services, tailored to meet your staffing needs.</p>
@@ -68,7 +68,7 @@
 
                 <div class="col">
                     <div class="card" style="background-color:#1A3950; ">
-                        <img class="card-img-top" src="{{ asset('img/intensive.jpg') }}">
+                        <img class="card-img-top" src="{{ asset('img/emergency.jpg') }}" style="height: 300px; object-fit:cover">
                         <div class="card-body text-white" style="min-height: 150px">
                             <h5 class="card-title">Sourcing</h5>
                             <p class="card-text">Discover the best candidates for your open positions with our expert sourcing services, leveraging advanced strategies.</p>
@@ -86,7 +86,7 @@
 
                 <div class="col">
                     <div class="card" style="background-color:#1A3950">
-                        <img class="card-img-top" src="{{ asset('img/intensive.jpg') }}">
+                        <img class="card-img-top" src="{{ asset('img/holdhands.webp') }}">
                         <div class="card-body text-white" style="min-height: 150px">
                             <h5 class="card-title">Human Resources</h5>
                             <p class="card-text">Optimize your HR operations with our full-service human resources solutions, covering everything from employee relations.</p>
@@ -97,7 +97,7 @@
 
                 <div class="col">
                     <div class="card" style="background-color:#1A3950">
-                        <img class="card-img-top" src="{{ asset('img/intensive.jpg') }}">
+                        <img class="card-img-top" src="{{ asset('img/pedia.jpg') }}">
                         <div class="card-body text-white" style="min-height: 150px">
                             <h5 class="card-title">Virtual Assistance</h5>
                             <p class="card-text">Enhance your productivity with our virtual assistance services, providing remote administrative support to handle.</p>
@@ -108,7 +108,7 @@
 
                 <div class="col">
                     <div class="card" style="background-color:#1A3950">
-                        <img class="card-img-top" src="{{ asset('img/intensive.jpg') }}">
+                        <img class="card-img-top" src="{{ asset('img/Permanent.webp') }}">
                         <div class="card-body text-white" style="min-height: 150px">
                             <h5 class="card-title">Payroll Reconciliation</h5>
                             <p class="card-text">Maintain accurate payroll records and resolve discrepancies efficiently with our meticulous payroll reconciliation.</p>
@@ -121,7 +121,7 @@
 
                 <div class="col">
                     <div class="card" style="background-color:#1A3950">
-                        <img class="card-img-top" src="{{ asset('img/intensive.jpg') }}">
+                        <img class="card-img-top" src="{{ asset('img/steprn.webp') }}">
                         <div class="card-body text-white" style="min-height: 150px">
                             <h5 class="card-title">Social Media Management</h5>
                             <p class="card-text">Boost your online presence and engage with your audience effectively through our comprehensive social media.</p>
@@ -145,7 +145,7 @@
                 <div class="card mb-3 rounded-5" style="width: 60%; background-color: transparent">
                     <div class="d-flex">
                         <div class="p-3">
-                            <img class="rounded-5" src="{{ asset('img/intensive.jpg') }}" alt="intensive" style="height:150px; width:150px; object-fit:cover">
+                            <img class="rounded-5" src="{{ asset('img/sample.jpg') }}" alt="intensive" style="height:150px; width:150px; object-fit:cover">
                         </div>
                         <div class="d-flex flex-column justify-content-center">
                             <p>
@@ -162,7 +162,7 @@
             <div class="card mb-3 rounded-5" style="width: 60%; background-color: transparent">
                 <div class="d-flex">
                     <div class="p-3">
-                        <img class="rounded-5" src="{{ asset('img/intensive.jpg') }}" alt="intensive" style="height:150px; width:150px; object-fit:cover">
+                        <img class="rounded-5" src="{{ asset('img/sample.jpg') }}" alt="intensive" style="height:150px; width:150px; object-fit:cover">
                     </div>
                     <div class="d-flex flex-column justify-content-center">
                         <p>
@@ -179,7 +179,7 @@
                 <div class="card mb-3 rounded-5" style="width: 60%; background-color: transparent">
                     <div class="d-flex">
                         <div class="p-3">
-                            <img class="rounded-5" src="{{ asset('img/intensive.jpg') }}" alt="intensive" style="height:150px; width:150px; object-fit:cover">
+                            <img class="rounded-5" src="{{ asset('img/sample.jpg') }}" alt="intensive" style="height:150px; width:150px; object-fit:cover">
                         </div>
                         <div class="d-flex flex-column justify-content-center">
                             <p>
@@ -200,8 +200,12 @@
 
         <section class="p-0">
             <div class="row me-0 g-0">
-                <div class="col-5" style="height: 500px">
-                    <img class="w-100" src="{{ asset('img/intensive.jpg') }}" alt="intensive" style="height:100%; object-fit:cover">
+                <div class="col-5" style="height: 500px; position: relative;">
+                    <img class="w-100" src="{{ asset('img/New Jersey Cape May Beach.webp') }}" alt="intensive" style="height:100%; object-fit:cover">
+                    <div style="position:absolute; top:0; left:0; width:100%; height:100%; background-color: rgba(0, 0, 0, 0.5);"></div>
+                    <div class="d-flex justify-content-center align-items-center" style="position:absolute; top:0; left:0; width:100%; height:100%;">
+                        <img src="{{ asset('img/ahiwhitelogo.png') }}" alt="AHI Logo" style="width: 300px">
+                    </div>
                 </div>
                 <div class="col-7 d-flex align-items-center justify-content-center text-white" style="background-color: #151823">
                     <div class="p-5" style="max-width: 900px">
