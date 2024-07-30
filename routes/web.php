@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BlogController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,20 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/forms', function () {
+    return view('forms');
+});
+
+Route::get('/blogs', function(){
+    return view('blogs');
+});
+
+Route::get('/fetchblog', [BlogController::class, 'fetchblog'])->name('fetchblog');
+Route::get('/article', [BlogController::class, 'blogpage'])->name('blogpage');
+
+
+Route::get('/adminblog', function(){
+    return view('admin.blogpost');
+});
+Route::post('/newposttest', [BlogController::class, 'AddBlog'])->name('savePost');

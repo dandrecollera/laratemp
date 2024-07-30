@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title', env('WEB_TITLE'))</title>
 
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <script src="https://kit.fontawesome.com/193851b937.js" crossorigin="anonymous"></script>
     <style>
@@ -50,7 +52,7 @@
 
 <body>
 
-    @include('components.header')
+    @include('components.adminheader')
     <div class="container-fluid p-0">
         @yield('content')
     </div>
